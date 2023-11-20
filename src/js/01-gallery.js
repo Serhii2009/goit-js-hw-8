@@ -23,9 +23,6 @@ function galleryList(arr) {
     .join('');
 }
 
-import SimpleLightbox from 'simplelightbox';
-import 'simplelightbox/dist/simple-lightbox.min.css';
-
 let gallery = new SimpleLightbox('.gallery__item a', {
   captionsData: 'alt',
   captionDelay: 250,
